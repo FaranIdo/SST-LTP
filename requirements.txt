@@ -1,0 +1,12 @@
+torch>=2.1.0
+numpy>=1.24.0
+pandas>=2.1.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0
+tqdm>=4.65.0
+jupyter>=1.0.0  # for visualize.ipynb
+rasterio>=1.3.9  # for handling geospatial data
+tensorboard>=2.15.0  # for experiment tracking and visualization
+seaborn>=0.13.0  # for enhanced visualizations
+logging>=0.5.1.2  # for logging functionality
+argparse>=1.4.0  # for command line argument parsing 
