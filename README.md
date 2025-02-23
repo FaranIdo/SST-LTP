@@ -103,3 +103,9 @@ If you find this code useful for your research, please cite our paper:
   year={2025}
 }
 ```
+
+## Contact
+
+For questions or feedback about this project, please contact:
+
+Ido Faran - [faranidof@gmail.com](mailto:faranidof@gmail.com)
