@@ -27,21 +27,21 @@ The model is trained on Landsat NDVI time series data from 1984 to 2024, consist
 ## Installation
 
 1. Clone the repository:
-"""
+```bash
 git clone https://github.com/yourusername/SST-LTP.git
 cd SST-LTP
-"""
+```
 
 2. Create a virtual environment (recommended):
-"""
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-"""
+```
 
 3. Install dependencies:
-"""
+```bash
 pip install -r requirements.txt
-"""
+```
 
 ## Usage
 
@@ -49,30 +49,30 @@ pip install -r requirements.txt
 
 To train the model:
 
-"""
+```bash
 python train.py --dataset_path path/to/your/landsat_data.tif \
                 --window_size 40 \
                 --future_window_size 10 \
                 --batch_size 32 \
                 --epochs 100 \
                 --name experiment_name
-"""
+```
 
 ### Evaluation
 
 To evaluate a trained model:
 
-"""
+```bash
 python eval.py --experiment experiment_name
-"""
+```
 
 ### Testing
 
 To test the model's predictions:
 
-"""
+```bash
 python test.py --experiment experiment_name
-"""
+```
 
 ## Model Parameters
 
@@ -95,11 +95,11 @@ The repository includes a Jupyter notebook (`visualize.ipynb`) for visualizing:
 
 If you find this code useful for your research, please cite our paper:
 
-"""
+```bibtex
 @inproceedings{faran2025self,
   title={Self-Supervised Transformers for Long-Term Prediction of Landsat NDVI Time Series},
   author={Faran, Ido and Netanyahu, Nathan S. and Roitberg, Elena and Shoshany, Maxim},
   booktitle={Proceedings of the 14th International Conference on Pattern Recognition Applications and Methods (ICPRAM)},
   year={2025}
 }
-"""
+```
