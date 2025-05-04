@@ -1,6 +1,6 @@
 # Self-Supervised Transformers for Long-Term Prediction of Landsat NDVI Time Series
 
-Official implementation of the paper "Self-Supervised Transformers for Long-Term Prediction of Landsat NDVI Time Series" (ICPRAM 2025).
+Official implementation of the paper ["Self-Supervised Transformers for Long-Term Prediction of Landsat NDVI Time Series"](https://www.scitepress.org/Papers/2025/133817/133817.pdf) (ICPRAM 2025).
 
 ## Abstract
 
@@ -24,13 +24,17 @@ The model is trained on Landsat NDVI time series data from 1984 to 2024, consist
 - Temporal resolution: Bi-seasonal (summer/winter)
 - Spatial resolution: 30m (Landsat resolution)
 
+### Dataset Download
+The Landsat NDVI time series dataset used in this study can be downloaded from the following link:
+- [Download Dataset](https://drive.google.com/file/d/1MJq4ZpesSNicCpfPFMtJstU7KJCnl9P3/view?usp=sharing)
+
 ## Installation
 
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/SST-LTP.git
 cd SST-LTP
-```
+```bash
 
 2. Create a virtual environment (recommended):
 ```bash
